@@ -9,39 +9,39 @@ for (var i = 0; i < numberOfButtons; i++) {
 function makeSound(buttonInnerHTML) {
 	switch (buttonInnerHTML) {
 		case "waitForIt sound":
-			var waitForIt = new Audio("sounds/waitForIt.mp3");
+			var waitForIt = new Audio("/waitForIt.mp3");
 			waitForIt.play();
 			break;
 		case "imAwesome sound":
-			var imAwesome = new Audio("sounds/imAwesome.mp3");
+			var imAwesome = new Audio("/imAwesome.mp3");
 			imAwesome.play();
 			break;
 		case "challengeAccepted sound":
-			var challengeAccepted = new Audio("/sounds/challengeAccepted.mp3");
+			var challengeAccepted = new Audio("/challengeAccepted.mp3");
 			challengeAccepted.play();
 			break;
 		case "selfFive sound":
-			var selfFive = new Audio("/sounds/selfFive.mp3");
+			var selfFive = new Audio("/selfFive.mp3");
 			selfFive.play();
 			break;
 		case "suitUp sound":
-			var suitUp = new Audio("/sounds/suitUp.mp3");
+			var suitUp = new Audio("/suitUp.mp3");
 			suitUp.play();
 			break;
 		case "trueStory sound":
-			var trueStory = new Audio("/sounds/trueStory.mp3");
+			var trueStory = new Audio("/trueStory.mp3");
 			trueStory.play();
 			break;
 		case "patentPending sound":
-			var patentPending = new Audio("/sounds/patentPending.mp3");
+			var patentPending = new Audio("/patentPending.mp3");
 			patentPending.play();
 			break;
 		case "legendary sound":
-			var legendary = new Audio("/sounds/legendary.mp3");
+			var legendary = new Audio("/legendary.mp3");
 			legendary.play();
 			break;
 		case "haveYouMet sound":
-			var haveYouMet = new Audio("/sounds/haveYouMet.mp3");
+			var haveYouMet = new Audio("/haveYouMet.mp3");
 			haveYouMet.play();
 			break;
 
